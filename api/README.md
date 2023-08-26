@@ -11,7 +11,22 @@
 ```bash
 # アプリのプロジェクトルートに移動する
 cd ~/Dropbox/nob/work/udemy/sns-udemy
+
 # 今いる作業場所を確認する
 pwd
 
+# アプリプロジェクトルート直下にapiフォルダを作る
+mkdir api
+
+# ---これ以降Backendの構築はapiフォルダで作業する
+cd api
+
+# --- （バックエンド構築作業　省略） ------------
+
+# 一旦アプリプロジェクトルートに戻り、今度はclientファオルを作る
+cd ..
+mkdir client
+cd client
+
+# ---これ以降Frontendの構築はclientファオルダで作業する
 ```
